@@ -192,12 +192,19 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /*Maon text color 		 */
     --cib-color-foreground-accent-tertiary: #FFD29C!important;
-    --cib-color-foreground-accent-quaternary: #D79921 !important;
-    --cib-color-foreground-accent-disabled: #D79921 !important;
+		
+		
+    --cib-color-foreground-accent-quaternary: #9D1B6C !important;
+    --cib-color-foreground-accent-disabled: #9D1B6C !important;
+		
+		
+		
 		/*More Precise button  		 */
     --cib-color-foreground-on-accent-primary: #FFD29C !important ; 
 
-    --cib-color-foreground-on-accent-secondary: #EAEDC8 !important ;
+		
+		
+    --cib-color-foreground-on-accent-secondary: #939F91 !important ;
     --cib-color-foreground-on-accent-tertiary: #689D6A !important ;
 /*New Topic  color  		 */
     --cib-color-foreground-on-accent-selected: #FFD29C !important ;
@@ -205,67 +212,101 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-foreground-on-accent-disabled:#D79921 !important ;
     --cib-color-foreground-accent-balanced-primary: #D79921 !important;
     --cib-color-foreground-accent-creative-primary: #FABD2F !important;
-    --cib-color-foreground-accent-precise-primary:#9D1B6C !important ; 
+    --cib-color-foreground-accent-precise-primary:#E41897 !important ; 
     --cib-color-foreground-accent-balanced-secondary: #D65D0E !important ;
-    --cib-color-foreground-accent-creative-secondary: #16181A !important;
+    --cib-color-foreground-accent-creative-secondary: #1C65AE !important;
     --cib-color-foreground-accent-precise-secondary: #D79921 !important ;
     --cib-color-foreground-neutral-primary: #FFD29C!important;
 /* Asdk anything text 	 */
     --cib-color-foreground-neutral-secondary: #B8BB26 !important ;
-    --cib-color-foreground-neutral-tertiary: #0F0 !important ;
+/*Icons under chat stylsees  	 */
+    --cib-color-foreground-neutral-tertiary: #FB4934 !important ;
+		
+		
+		
+		
+		
     --cib-color-foreground-neutral-quaternary: #D3869B !important;
     --cib-color-foreground-neutral-disabled: rgba(17,17,17,0.4);
     --cib-color-foreground-on-accent-strong-primary: #16181A !important;
     --cib-color-foreground-on-accent-strong-secondary: #A4AD9E !important;
     --cib-color-foreground-on-accent-strong-disabled: #D5C4A1 !important;
-    --cib-color-foreground-system-attention-primary: #0F0 !important;
+    --cib-color-foreground-system-attention-primary: #E41897 !important;
     --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
     --cib-color-foreground-system-caution-primary: #1F1E1D  !important;
     --cib-color-foreground-system-critical-primary: #8EC07C !important;
-    --cib-color-foreground-system-link-primary: #FABD2F !important ;
-    --cib-color-foreground-system-neutral-primary: #B8BB26 !important;
+    --cib-color-foreground-system-link-primary: #939F91 !important ;
+    --cib-color-foreground-system-neutral-primary: #0F0 !important;
     --cib-color-foreground-system-neutral-strong: #0F0 !important;
-    --cib-color-foreground-system-success-primary:red !important;
+    --cib-color-foreground-system-success-primary:#0F0 !important;
 		
 /* 	Feeback button bg 	 */
     --cib-color-fill-accent-primary: #16181A !important;
-    --cib-color-fill-accent-secondary: #0F0 !important;
-    --cib-color-fill-accent-tertiary: #0F0 !important;
+		
+		
+/* Stop responding button 		 */
+    --cib-color-fill-accent-secondary: #CC241D !important;
+		
+		
+    --cib-color-fill-accent-tertiary: #FABD2F !important;
     --cib-color-fill-accent-quaternary: #0F0 !important;
+		
     --cib-color-fill-accent-disabled: #0F0 !important;
-    --cib-color-fill-accent-alt-primary: #0F0 !important;
-    --cib-color-fill-accent-alt-secondary: #0F0 !important;
-    --cib-color-fill-accent-alt-tertiary: #0F0 !important;
-    --cib-color-fill-accent-alt-quaternary: #0F0 !important;
+		
+		
+/*You bUtton color bg  		 */
+    --cib-color-fill-accent-alt-primary: #FB4934 !important;
+		
+/*List highliht color  		 */
+    --cib-color-fill-accent-alt-secondary: #FABD2F !important;
+		
+		
+		
+    --cib-color-fill-accent-alt-tertiary: #E41897 !important;
+
+		
+		/* 	Citations Numbering button 	 */
+		
+		
+    --cib-color-fill-accent-alt-quaternary: #16181A !important;
     --cib-color-fill-accent-alt-quinary: #0F0 !important;
     --cib-color-fill-accent-alt-disabled: #0F0 !important;
 /*Precise button and New topc buttton bg  		 */
     --cib-color-fill-accent-gradient-primary: #79740E !important;
-    --cib-color-fill-accent-gradient-secondary: red !important ;
-    --cib-color-fill-accent-gradient-tertiary: red !important ;
-    --cib-color-fill-accent-gradient-quaternary:red !important;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    --cib-color-fill-accent-gradient-secondary: #0F0 !important ;
+    --cib-color-fill-accent-gradient-tertiary: #0F0 !important ;
+    --cib-color-fill-accent-gradient-quaternary:#79740E !important;
     --cib-color-fill-accent-strong-primary: #0F0 !important;
     --cib-color-fill-accent-strong-secondary: #0F0 !important;
     --cib-color-fill-accent-strong-tertiary: #0F0 !important  ; 
     --cib-color-fill-accent-strong-disabled: rgba(0,104,128,0.3);
     --cib-color-fill-accent-speech-primary: #0F0 !important;
     --cib-color-fill-accent-speech-secondary: #0F0 !important;
-    --cib-color-fill-accent-speech-tertiary: #98971A !important;
-    --cib-color-fill-accent-alt-balanced-primary: #98971A !important;
-    --cib-color-fill-accent-alt-creative-primary:#98971A !important;
-    --cib-color-fill-accent-alt-precise-primary: #B8BB26 !important;
-    --cib-color-fill-accent-balanced-primary: #98971A !important;
-    --cib-color-fill-accent-creative-primary: #98971A !important;
-    --cib-color-fill-accent-precise-primary: #D79921 !important;
+    --cib-color-fill-accent-speech-tertiary: #0F0 !important;
+    --cib-color-fill-accent-alt-balanced-primary: #0F0 !important;
+    --cib-color-fill-accent-alt-creative-primary:#0F0 !important;
+    --cib-color-fill-accent-alt-precise-primary: #0F0 !important;
+    --cib-color-fill-accent-balanced-primary: #0F0 !important;
+    --cib-color-fill-accent-creative-primary: #0F0 !important;
+    --cib-color-fill-accent-precise-primary: #0F0 !important;
     --cib-color-fill-accent-balanced-secondary: #0F0 !important;
-    --cib-color-fill-accent-creative-secondary: #CC241D !important;
+    --cib-color-fill-accent-creative-secondary: #066F06 !important;
     --cib-color-fill-accent-precise-secondary: #0E350E !important;
     --cib-color-fill-accent-gradient-balanced-quaternary: #0F0 !important;
     --cib-color-fill-accent-gradient-creative-quaternary: #0F0 !important;
-    --cib-color-fill-accent-gradient-precise-quaternary: #98971A !important;
+    --cib-color-fill-accent-gradient-precise-quaternary: #0F0 !important;
     --cib-color-fill-neutral-primary: #0F0 !important;
-    --cib-color-fill-neutral-secondary: red !important;
-    --cib-color-fill-neutral-tertiary: red !important;
+    --cib-color-fill-neutral-secondary: #0F0 !important;
+    --cib-color-fill-neutral-tertiary: #0F0 !important;
 		
 		
     --cib-color-fill-neutral-quaternary:#0F0 !important;
@@ -280,9 +321,24 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-neutral-alt-disabled: transparent;
     --cib-color-fill-neutral-alt-transparent: transparent;
 		
-    --cib-color-fill-neutral-strong-primary: #0F0 !important;
-    --cib-color-fill-neutral-strong-secondary:#0F0 !important;
-    --cib-color-fill-neutral-strong-tertriary: #B8BB26 !important;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+/* Recommenadtion pill on the icons 		 */
+    --cib-color-fill-neutral-strong-primary: #FFD29C !important;
+    --cib-color-fill-neutral-strong-secondary:#FB4934 !important;
+    --cib-color-fill-neutral-strong-tertriary: #FB4934 !important;
     --cib-color-fill-neutral-strong-disabled: rgba(68,68,68,0.3);
 		
 /*Input area color  		 */
@@ -290,11 +346,13 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /*Sources  		 */
     --cib-color-fill-neutral-solid-secondary: #282828 !important;
-    --cib-color-fill-neutral-solid-tertiary: #D79921 !important;
+/* Sources main button Bg 		 */
+    --cib-color-fill-neutral-solid-tertiary: #225536 !important;
     --cib-color-fill-subtle-primary: transparent;
     --cib-color-fill-subtle-secondary: rgba(0,0,0,0.06);
     --cib-color-fill-subtle-tertiary: rgba(0,0,0,0.1);
     --cib-color-fill-subtle-quaternary: rgba(0,0,0,0.2);
+		
     --cib-color-fill-subtle-quinary: #D79921 !important;
     --cib-color-fill-subtle-senary: #919191;
     --cib-color-fill-subtle-disabled: transparent;
@@ -321,16 +379,17 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
     --cib-color-background-surface-card-secondary: #D79921 !important;
-    --cib-color-background-surface-card-tertiary: #0F0 !important;
-    --cib-color-background-surface-card-disabled: #0F0 !important;
-    --cib-color-background-surface-smoke-primary: #0F0 !important;
+/*Citation card bg  		 */
+    --cib-color-background-surface-card-tertiary: #FFD29C !important;
+    --cib-color-background-surface-card-disabled: #F00 !important;
+    --cib-color-background-surface-smoke-primary: #F00 !important;
     --cib-color-background-surface-solid-base:#FB4934 !important;
 		
 		
 /*Man App background 		 */
     --cib-color-background-surface-solid-primary: #1A1B1D !important;
 		
-    --cib-color-background-surface-solid-secondary:#0F0 !important;
+    --cib-color-background-surface-solid-secondary:#E36209 !important;
     --cib-color-background-surface-solid-tertiary: #F9F9F9;
     --cib-color-background-surface-solid-quaternary: #FFFFFF;
     --cib-color-background-system-attention-primary: rgba(255,255,255,0.5);
