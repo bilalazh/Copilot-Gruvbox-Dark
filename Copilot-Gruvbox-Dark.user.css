@@ -170,10 +170,10 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
+
 	
 	
-	
-	
+
 	
 	
 	
@@ -216,6 +216,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-foreground-accent-balanced-secondary: #D65D0E !important ;
     --cib-color-foreground-accent-creative-secondary: #1C65AE !important;
     --cib-color-foreground-accent-precise-secondary: #D79921 !important ;
+		
+		
     --cib-color-foreground-neutral-primary: #FFD29C!important;
 /* Asdk anything text 	 */
     --cib-color-foreground-neutral-secondary: #B8BB26 !important ;
@@ -228,9 +230,12 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
     --cib-color-foreground-neutral-quaternary: #D3869B !important;
     --cib-color-foreground-neutral-disabled: rgba(17,17,17,0.4);
-    --cib-color-foreground-on-accent-strong-primary: #16181A !important;
-    --cib-color-foreground-on-accent-strong-secondary: #A4AD9E !important;
-    --cib-color-foreground-on-accent-strong-disabled: #E7EEF5 !important;
+		
+/* 	Icon highlight pill 
+		*/
+    --cib-color-foreground-on-accent-strong-primary: #0E350E !important;
+    --cib-color-foreground-on-accent-strong-secondary: #0F0 !important;
+    --cib-color-foreground-on-accent-strong-disabled: #0F0 !important;
     --cib-color-foreground-system-attention-primary: #E41897 !important;
     --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
     --cib-color-foreground-system-caution-primary: #1F1E1D  !important;
@@ -244,8 +249,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-accent-primary: #16181A !important;
 		
 		
+/*Custom color  		 */
 /* Stop responding button 		 */
-    --cib-color-fill-accent-secondary: #79740E !important;
+    --cib-color-fill-accent-secondary: #3E3B07 !important;
 		
 		
     --cib-color-fill-accent-tertiary: #FABD2F !important;
@@ -285,9 +291,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-accent-gradient-secondary: #0F0 !important ;
     --cib-color-fill-accent-gradient-tertiary: #0F0 !important ;
     --cib-color-fill-accent-gradient-quaternary:#79740E !important;
-    --cib-color-fill-accent-strong-primary: #0F0 !important;
-    --cib-color-fill-accent-strong-secondary: #0F0 !important;
-    --cib-color-fill-accent-strong-tertiary: #0F0 !important  ; 
+    --cib-color-fill-accent-strong-primary: #79740E !important;
+    --cib-color-fill-accent-strong-secondary: #FE8019 !important;
+    --cib-color-fill-accent-strong-tertiary: #3E3B07 !important  ; 
     --cib-color-fill-accent-strong-disabled: rgba(0,104,128,0.3);
     --cib-color-fill-accent-speech-primary: #0F0 !important;
     --cib-color-fill-accent-speech-secondary: #0F0 !important;
@@ -603,9 +609,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-motion-easing-transition: cubic-bezier(0.75, 0, 0.25, 1);
 }
 	
-	
-	
-	
+
 	
 	
 	
