@@ -24,4 +24,528 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 @-moz-document domain("copilot.microsoft.com") {
     /* Insert code here... */
+	
+
+	
+	
+	
+	
+	
+	    :root
+
+{
+    /* 0 is for darkest 
+    1 is for hard 
+    higher values for hard  */
+
+
+    /* 2.1 Dark theme color variables */
+    --bg0-dh:       #1d2021;
+    --bg-dark-new  :  #1F1E1D ; 
+/*For basic text new color added  	 */
+--text-normal :#ffd29c ;
+
+    --shadow-bg:         #1d1b1a;
+    
+    --bg1-dark:       #3c3836;
+    --bg-dark:        #282828;
+    --bg2-dark:       #504945;
+    --bg3-dark:       #665c54;
+    --bg4-dark:       #7c6f64;
+    --bg5-dark:       #928374;
+    --bg_visual:      #503946;
+    --bg_red:         #cc241d;
+    --bg_green:       #98971a;
+    --bg_blue:        #458588;
+    --bg_yellow:      #d79921;
+    --shadow:         #16181a;
+    --shadow-var1:         #17191b;
+    --shadow-cur:         #1a1b1d;
+
+    --fg-dark:        #ebdbb2;
+    --grey0-dark:     #7f897d;
+    --grey1-dark:     #859289;
+    --grey2-dark:     #9aa79d;
+
+    --faded-red:     #fb4934;
+    --faded-orange:  #fe8019;
+    --faded-yellow:  #fabd2f;
+    --faded-green:   #b8bb26;
+    --faded-aqua:    #8ec07c;
+    --faded-blue:    #83a598;
+    --faded-purple:  #d3869b;
+
+    --dim-red:       #cc241d;
+    --dim-orange:    #d65d0e;
+    --dim-yellow:    #d79921;
+    --dim-green:     #98971a;
+    --dim-aqua:      #689d6a;
+    --dim-blue:      #458588;
+    --dim-purple:    #b16286;
+
+
+    /* 2.2 Light theme color variables */
+    --bg0-light:     #f0edd8;
+    --bg1-light:     #f6f1dd;
+    --bg-light:      #fdf6e3;
+    --bg2-light:     #f3efda;
+    --bg3-light:     #edead5;
+    --bg4-light:     #e4e1cd;
+    --bg5-light:     #dfdbc8;
+    --grey0-light:   #a4ad9e;
+    --grey1-light:   #939f91;
+    --grey2-light:   #879686;
+    --shadow-light:  #3c474d20;
+
+
+    --text-offwhite: #fbf1c7;
+    --text-offyellowish: #f2e5bc;
+    --text-white: #f9f5d7;
+    --text-offwhite-faded: #ebdbb2;
+    --text--faded: #d5c4a1;
+    --text--veryfade: #928374;
+
+    
+
+    
+
+
+
+    --bg_visual_light:      #eaedc8;
+    --bg_red_light:         #fbe3da;
+    --bg_green_light:       #f0f1d2;
+    --bg_blue_light:        #e9f0e9;
+    --bg_yellow_light:      #faedcd;
+
+    --fg-light:       #5c6a72;
+
+    --light-red:     #f85552;
+    --light-orange:  #f57d26;
+    --light-yellow:  #bf983d;
+    --light-green:   #899c40;
+    --light-aqua:    #569d79;
+    --light-blue:    #5a93a2;
+    --light-purple:  #b87b9d;
+
+    --light-dim-red:    #f1706f;
+    --light-dim-orange: #f39459;
+    --light-dim-yellow: #e4b649;
+    --light-dim-green:  #a4bb4a;
+    --light-dim-aqua:   #6ec398;
+    --light-dim-blue:   #6cb3c6;
+    --light-dim-purple: #e092be;
+
+
+
+ --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
+  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
+  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
+  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
+  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
+  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+  --dark-orange: #af3a03;
+
+
+/* light colors */
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
+
+
+ 
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	:root {
+/*You icon color */
+    --cib-color-foreground-accent-primary: #FFD29C !important;
+    --cib-color-foreground-accent-secondary: #0F7B0F!important;
+		
+/*Maon text color 		 */
+    --cib-color-foreground-accent-tertiary: #FFD29C!important;
+    --cib-color-foreground-accent-quaternary: #D79921 !important;
+    --cib-color-foreground-accent-disabled: #D79921 !important;
+		/*More Precise button  		 */
+    --cib-color-foreground-on-accent-primary: #79740E !important ; 
+
+    --cib-color-foreground-on-accent-secondary: #EAEDC8 !important ;
+    --cib-color-foreground-on-accent-tertiary: #0F0 !important ;
+/*New Topic  color  		 */
+    --cib-color-foreground-on-accent-selected: #FFF !important ;
+    --cib-color-foreground-on-accent-disabled:#D79921 !important ;
+    --cib-color-foreground-accent-balanced-primary: #D79921 !important;
+    --cib-color-foreground-accent-creative-primary: #CC241D !important;
+    --cib-color-foreground-accent-precise-primary:#8F3F71 !important ; 
+    --cib-color-foreground-accent-balanced-secondary: #D65D0E !important ;
+    --cib-color-foreground-accent-creative-secondary: #16181A !important;
+    --cib-color-foreground-accent-precise-secondary: #D79921 !important ;
+    --cib-color-foreground-neutral-primary: #FFD29C!important;
+/* Asdk anything text 	 */
+    --cib-color-foreground-neutral-secondary: #B8BB26 !important ;
+    --cib-color-foreground-neutral-tertiary: #0F0 !important ;
+    --cib-color-foreground-neutral-quaternary: #D3869B !important
+		;
+    --cib-color-foreground-neutral-disabled: rgba(17,17,17,0.4);
+    --cib-color-foreground-on-accent-strong-primary: #16181A !important;
+    --cib-color-foreground-on-accent-strong-secondary: #A4AD9E !important;
+    --cib-color-foreground-on-accent-strong-disabled: red !important;
+    --cib-color-foreground-system-attention-primary: #9D0006 !important;
+    --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
+    --cib-color-foreground-system-caution-primary: #1F1E1D  !important;
+    --cib-color-foreground-system-critical-primary: red !important;
+    --cib-color-foreground-system-link-primary: red !important ;
+    --cib-color-foreground-system-neutral-primary: red !important;
+    --cib-color-foreground-system-neutral-strong: red !important;
+    --cib-color-foreground-system-success-primary:red !important;
+    --cib-color-fill-accent-primary: red !important;
+    --cib-color-fill-accent-secondary: red !important;
+    --cib-color-fill-accent-tertiary: red !important;
+    --cib-color-fill-accent-quaternary: red !important;
+    --cib-color-fill-accent-disabled: red !important;
+    --cib-color-fill-accent-alt-primary: red !important;
+    --cib-color-fill-accent-alt-secondary: red !important;
+    --cib-color-fill-accent-alt-tertiary: red !important;
+    --cib-color-fill-accent-alt-quaternary: red !important;
+    --cib-color-fill-accent-alt-quinary: red !important;
+    --cib-color-fill-accent-alt-disabled: red !important;
+    --cib-color-fill-accent-gradient-primary: red !important;
+    --cib-color-fill-accent-gradient-secondary: red !important ;
+    --cib-color-fill-accent-gradient-tertiary: red !important ;
+    --cib-color-fill-accent-gradient-quaternary:red !important;
+    --cib-color-fill-accent-strong-primary: #F00 !important;
+    --cib-color-fill-accent-strong-secondary: red !important;
+    --cib-color-fill-accent-strong-tertiary: red !important  ; 
+    --cib-color-fill-accent-strong-disabled: rgba(0,104,128,0.3);
+    --cib-color-fill-accent-speech-primary: red !important;
+    --cib-color-fill-accent-speech-secondary: red !important;
+    --cib-color-fill-accent-speech-tertiary: red !important;
+    --cib-color-fill-accent-alt-balanced-primary: red !important;
+    --cib-color-fill-accent-alt-creative-primary:red !important;
+    --cib-color-fill-accent-alt-precise-primary: red !important;
+    --cib-color-fill-accent-balanced-primary: red !important;
+    --cib-color-fill-accent-creative-primary: red !important;
+    --cib-color-fill-accent-precise-primary: red !important;
+    --cib-color-fill-accent-balanced-secondary: red !important;
+    --cib-color-fill-accent-creative-secondary: red !important;
+    --cib-color-fill-accent-precise-secondary: red !important;
+    --cib-color-fill-accent-gradient-balanced-quaternary: red !important;
+    --cib-color-fill-accent-gradient-creative-quaternary: red !important;
+    --cib-color-fill-accent-gradient-precise-quaternary: red !important;
+    --cib-color-fill-neutral-primary: red !important;
+    --cib-color-fill-neutral-secondary: red !important;
+    --cib-color-fill-neutral-tertiary: red !important;
+    --cib-color-fill-neutral-quaternary:red !important;
+    --cib-color-fill-neutral-quinary: red !important;
+    --cib-color-fill-neutral-disabled: red !important;
+    --cib-color-fill-neutral-input-active: red !important;
+    --cib-color-fill-neutral-transparent: red !important;
+    --cib-color-fill-neutral-alt-primary: red !important;
+    --cib-color-fill-neutral-alt-secondary: red !important;
+    --cib-color-fill-neutral-alt-tertiary: red !important;
+    --cib-color-fill-neutral-alt-quaternary: rgba(0,0,0,0.12);
+    --cib-color-fill-neutral-alt-disabled: transparent;
+    --cib-color-fill-neutral-alt-transparent: transparent;
+		
+    --cib-color-fill-neutral-strong-primary: red !important;
+    --cib-color-fill-neutral-strong-secondary:red !important;
+    --cib-color-fill-neutral-strong-tertriary: #B8BB26 !important;
+    --cib-color-fill-neutral-strong-disabled: rgba(68,68,68,0.3);
+		
+/*Input area color  		 */
+    --cib-color-fill-neutral-solid-primary:#1D1B1A !important;
+		
+/*Sources  		 */
+    --cib-color-fill-neutral-solid-secondary: #282828 !important;
+    --cib-color-fill-neutral-solid-tertiary: #D79921 !important;
+    --cib-color-fill-subtle-primary: transparent;
+    --cib-color-fill-subtle-secondary: rgba(0,0,0,0.06);
+    --cib-color-fill-subtle-tertiary: rgba(0,0,0,0.1);
+    --cib-color-fill-subtle-quaternary: rgba(0,0,0,0.2);
+    --cib-color-fill-subtle-quinary: #D79921 !important;
+    --cib-color-fill-subtle-senary: #919191;
+    --cib-color-fill-subtle-disabled: transparent;
+    --cib-color-fill-subtle-transparent: transparent;
+    --cib-color-fill-subtle-alt-primary: rgba(0,0,0,0.06);
+    --cib-color-fill-subtle-alt-secondary: rgba(0,0,0,0.1);
+    --cib-color-fill-subtle-alt-tertiary: rgba(0,0,0,0.2);
+    --cib-color-fill-accent-gradient-balanced-primary: linear-gradient(130deg, #2870EA 20%, #1B4AEF 77.5%);
+    --cib-color-fill-accent-gradient-balanced-secondary: linear-gradient(130deg, #2870EA 20%, #1B4AEF 77.5%),linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    --cib-color-fill-accent-gradient-balanced-tertiary: linear-gradient(130deg, #2870EA 20%, #1B4AEF 77.5%),linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    --cib-color-fill-accent-gradient-creative-primary: linear-gradient(130deg, #914887 20%, #8B257E 77.5%);
+    --cib-color-fill-accent-gradient-creative-secondary: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(130deg, #914887 20%, #8B257E 77.5%);
+    --cib-color-fill-accent-gradient-creative-tertiary: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(130deg, #914887 20%, #8B257E 77.5%);
+    --cib-color-fill-accent-gradient-precise-primary: linear-gradient(130deg, #006880 20%, #005366 77.5%);
+    --cib-color-fill-accent-gradient-precise-secondary: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(130deg, #006880 20%, #005366 77.5%);
+    --cib-color-fill-accent-gradient-precise-tertiary: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(130deg, #006880 20%, #005366 77.5%);
+    --cib-color-fill-accent-gradient-customized-primary: #0F0;
+    --cib-color-background-surface-app-primary: #0F0 !important;
+    --cib-color-background-surface-app-secondary: #0F0 !important;
+		
+		
+/*Choose model bakground 		 */
+    --cib-color-background-surface-card-primary: #22863A !important;
+		
+		
+    --cib-color-background-surface-card-secondary: #D79921 !important;
+    --cib-color-background-surface-card-tertiary: #0F0 !important;
+    --cib-color-background-surface-card-disabled: #0F0 !important;
+    --cib-color-background-surface-smoke-primary: #0F0 !important;
+    --cib-color-background-surface-solid-base:#FFF !important;
+		
+		
+/*Man App background 		 */
+    --cib-color-background-surface-solid-primary: #1A1B1D !important;
+		
+    --cib-color-background-surface-solid-secondary:#0F0 !important;
+    --cib-color-background-surface-solid-tertiary: #F9F9F9;
+    --cib-color-background-surface-solid-quaternary: #FFFFFF;
+    --cib-color-background-system-attention-primary: rgba(255,255,255,0.5);
+    --cib-color-background-system-attention-strong: #106EBE;
+    --cib-color-background-system-success-primary: #DFF6DD;
+    --cib-color-background-system-success-strong: #0F7B0F;
+    --cib-color-background-system-caution-primary: #FFF4CE;
+    --cib-color-background-system-caution-strong: #9D5D00;
+    --cib-color-background-system-critical-primary: #FDE7E9;
+    --cib-color-background-system-critical-strong: #C42B1C;
+    --cib-color-background-free-sydney-primary: linear-gradient(106deg, #FFDEF8 -12.97%, #DDDAFF 66.67%, #FFF7E6 108.31%);
+    --cib-color-background-customized-gpt-primary: linear-gradient(0deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%), linear-gradient(106deg, #B7D2AD 6.96%, #B4D1AD 29.25%, #99C6B8 63.73%, #76AB88 97.7%);
+    --cib-color-background-first-party-gpt-primary: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), linear-gradient(106deg, #D2BFAD 6.96%, #CBBDA2 66.72%, #C3B288 99.98%);
+    --cib-color-stroke-accent-primary: #006880;
+    --cib-color-stroke-accent-secondary: #006880;
+    --cib-color-stroke-accent-tertiary: #006880;
+    --cib-color-stroke-accent-quaternary: #E0E0E0;
+    --cib-color-stroke-accent-disabled: rgba(0,104,128,0.3);
+    --cib-color-stroke-accent-balanced-primary: #174AE4;
+    --cib-color-stroke-accent-creative-primary: #742F6B;
+    --cib-color-stroke-accent-precise-primary: #006880;
+    --cib-color-stroke-accent-balanced-secondary: #174AE4;
+    --cib-color-stroke-accent-creative-secondary: #75306C;
+    --cib-color-stroke-accent-precise-secondary: #006880;
+    --cib-color-stroke-neutral-primary: rgba(0,0,0,0.1);
+    --cib-color-stroke-neutral-secondary: rgba(0,0,0,0.2);
+    --cib-color-stroke-neutral-tertiary: transparent;
+    --cib-color-stroke-neutral-quarternary: #D1D1D1;
+    --cib-color-stroke-neutral-alt-primary: rgba(0,0,0,0.3);
+    --cib-color-stroke-surface-card-primary: transparent;
+    --cib-color-stroke-surface-card-solid: transparent;
+    --cib-color-stroke-surface-divider-primary: rgba(0,0,0,0.1);
+    --cib-color-stroke-focus-outer: #111111;
+    --cib-color-stroke-focus-inner: #111111;
+    --cib-color-stroke-system-attention-primary: #106EBE;
+    --cib-color-stroke-system-success-primary: #0F7B0F;
+    --cib-color-stroke-system-caution-primary: #9D5D00;
+    --cib-color-stroke-system-critical-primary: #C42B1C;
+    --cib-color-stroke-system-neutral-primary: rgba(0,0,0,0.45);
+    --cib-color-syntax-background-surface: rgba(0,0,0,0.03);
+    --cib-color-syntax-background-green: #1B4721;
+    --cib-color-syntax-background-red: #78191B;
+    --cib-color-syntax-blue: #005CC5;
+    --cib-color-syntax-blue-strong: #032F62;
+    --cib-color-syntax-gold: #735C0F;
+    --cib-color-syntax-gray: #6A737D;
+    --cib-color-syntax-gray-strong: #24292E;
+    --cib-color-syntax-green: #22863A;
+    --cib-color-syntax-orange: #E36209;
+    --cib-color-syntax-purple: #6F42C1;
+    --cib-color-syntax-red: #D73A49;
+    --cib-color-syntax-red-strong: #B31D28;
+    --cib-comp-action-bar-search-border-radius: 24px;
+    --cib-comp-conversation-max-width: 1120px;
+    --cib-comp-copy-host-border-radius: 8px;
+    --cib-comp-copy-button-border-radius: 6px;
+    --cib-comp-feedback-host-border-radius: 8px;
+    --cib-comp-feedback-menu-border-radius: 8px;
+    --cib-comp-feedback-menu-before-border-radius: 9px;
+    --cib-comp-feedback-button-border-radius: 6px;
+    --cib-comp-flyout-host-border-radius: 6px;
+    --cib-comp-message-citation-border-radius: 3px;
+    --cib-no-bing-result-texture: url("data:image/svg+xml, %3Csvg%20width%3D%2280%22%20height%3D%2290%22%20viewBox%3D%220%200%2080%2090%22%20fill%3D%22%23111111%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M6.40095%207.53232L3.43433%204.5657C3.12191%204.25328%203.12191%203.74675%203.43433%203.43433C3.74675%203.12191%204.25328%203.12191%204.5657%203.43433L28.5657%2027.4343C28.8781%2027.7467%2028.8781%2028.2533%2028.5657%2028.5657C28.2533%2028.8781%2027.7467%2028.8781%2027.4343%2028.5657L24.4677%2025.5991C22.2112%2027.5912%2019.2467%2028.8%2016%2028.8C8.93077%2028.8%203.20001%2023.0693%203.20001%2016C3.20001%2012.7533%204.40883%209.78887%206.40095%207.53232ZM23.3338%2024.4652L7.53484%208.66621C5.83106%2010.6311%204.80001%2013.1952%204.80001%2016C4.80001%2022.1856%209.81442%2027.2%2016%2027.2C18.8049%2027.2%2021.3689%2026.169%2023.3338%2024.4652ZM27.2%2016C27.2%2018.2242%2026.5517%2020.2969%2025.4337%2022.0396L26.5884%2023.1943C27.9842%2021.144%2028.8%2018.6673%2028.8%2016C28.8%208.93077%2023.0693%203.20001%2016%203.20001C13.3327%203.20001%2010.856%204.01585%208.80574%205.4116L9.96046%206.56631C11.7031%205.44834%2013.7758%204.80001%2016%204.80001C22.1856%204.80001%2027.2%209.81442%2027.2%2016Z%22%20fill%3D%22%23111111%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M52.0006%2010.7077L50.1464%208.85355C49.9512%208.65829%2049.9512%208.34171%2050.1464%208.14645C50.3417%207.95118%2050.6583%207.95118%2050.8536%208.14645L65.8536%2023.1464C66.0488%2023.3417%2066.0488%2023.6583%2065.8536%2023.8536C65.6583%2024.0488%2065.3417%2024.0488%2065.1464%2023.8536L63.2923%2021.9994C61.882%2023.2445%2060.0292%2024%2058%2024C53.5817%2024%2050%2020.4183%2050%2016C50%2013.9708%2050.7555%2012.118%2052.0006%2010.7077ZM62.5836%2021.2907L52.7093%2011.4164C51.6444%2012.6444%2051%2014.247%2051%2016C51%2019.866%2054.134%2023%2058%2023C59.753%2023%2061.3556%2022.3556%2062.5836%2021.2907ZM65%2016C65%2017.3901%2064.5948%2018.6856%2063.8961%2019.7747L64.6178%2020.4964C65.4901%2019.215%2066%2017.6671%2066%2016C66%2011.5817%2062.4183%208%2058%208C56.3329%208%2054.785%208.5099%2053.5036%209.38224L54.2253%2010.1039C55.3144%209.4052%2056.6099%209%2058%209C61.866%209%2065%2012.134%2065%2016Z%22%20fill%3D%22%23111111%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M16.0006%2054.7077L14.1464%2052.8536C13.9512%2052.6583%2013.9512%2052.3417%2014.1464%2052.1464C14.3417%2051.9512%2014.6583%2051.9512%2014.8536%2052.1464L29.8536%2067.1464C30.0488%2067.3417%2030.0488%2067.6583%2029.8536%2067.8536C29.6583%2068.0488%2029.3417%2068.0488%2029.1464%2067.8536L27.2923%2065.9994C25.882%2067.2445%2024.0292%2068%2022%2068C17.5817%2068%2014%2064.4183%2014%2060C14%2057.9708%2014.7555%2056.118%2016.0006%2054.7077ZM26.5836%2065.2907L16.7093%2055.4164C15.6444%2056.6444%2015%2058.247%2015%2060C15%2063.866%2018.134%2067%2022%2067C23.753%2067%2025.3556%2066.3556%2026.5836%2065.2907ZM29%2060C29%2061.3901%2028.5948%2062.6856%2027.8961%2063.7747L28.6178%2064.4964C29.4901%2063.215%2030%2061.6671%2030%2060C30%2055.5817%2026.4183%2052%2022%2052C20.3329%2052%2018.785%2052.5099%2017.5036%2053.3822L18.2253%2054.1039C19.3144%2053.4052%2020.6099%2053%2022%2053C25.866%2053%2029%2056.134%2029%2060Z%22%20fill%3D%22%23111111%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M54.4009%2051.5323L51.4343%2048.5657C51.1219%2048.2533%2051.1219%2047.7467%2051.4343%2047.4343C51.7467%2047.1219%2052.2533%2047.1219%2052.5657%2047.4343L76.5657%2071.4343C76.8781%2071.7467%2076.8781%2072.2533%2076.5657%2072.5657C76.2533%2072.8781%2075.7467%2072.8781%2075.4343%2072.5657L72.4677%2069.5991C70.2112%2071.5912%2067.2467%2072.8%2064%2072.8C56.9308%2072.8%2051.2%2067.0693%2051.2%2060C51.2%2056.7533%2052.4088%2053.7889%2054.4009%2051.5323ZM71.3338%2068.4652L55.5348%2052.6662C53.8311%2054.6311%2052.8%2057.1952%2052.8%2060C52.8%2066.1856%2057.8144%2071.2%2064%2071.2C66.8049%2071.2%2069.3689%2070.169%2071.3338%2068.4652ZM75.2%2060C75.2%2062.2242%2074.5517%2064.2969%2073.4337%2066.0396L74.5884%2067.1943C75.9842%2065.144%2076.8%2062.6673%2076.8%2060C76.8%2052.9308%2071.0693%2047.2%2064%2047.2C61.3327%2047.2%2058.856%2048.0158%2056.8057%2049.4116L57.9605%2050.5663C59.7031%2049.4483%2061.7758%2048.8%2064%2048.8C70.1856%2048.8%2075.2%2053.8144%2075.2%2060Z%22%20fill%3D%22%23111111%22%2F%3E%0A%20%20%3C%2Fsvg%3E");
+    --cib-comp-modal-before-border-radius: 13px;
+    --cib-comp-side-panel-aad-msa-redirect-border-radius: 9px;
+    --cib-comp-thread-host-border-radius: 6px;
+    --cib-comp-thread-host-border-radius-goldilocks: 5px;
+    --cib-comp-thread-host-preview-border-radius: 8px;
+    --cib-comp-thread-name-border-radius: 3px;
+    --cib-comp-tooltip-host-before-border-radius: 5px;
+    --cib-comp-welcome-container-preview-button-border-radius: 3px;
+    --cib-comp-muid-consent-border-radius: 8px;
+    --cib-comp-muid-consent-overlay-border-radius: 6px;
+    --cib-comp-muid-consent-overlay-windows-border-radius: 7px;
+    --cib-comp-personas-actionBarBackground: #f0f0f6;
+    --cib-comp-personas-cardBackground: url(https://www.bing.com/th?id=OEP.DF4909DB50E734F8157DBF318763965C&pid=BEmail);
+    --cib-comp-personas-background-inline: radial-gradient(circle, rgba(202, 156, 209, 0.4) 0%, rgba(245, 245, 245, 0) 70%);
+    --cib-comp-personas-titleElevation: 0px 10px 16px 0px rgba(0, 0, 0, 0.06);
+    --cib-color-beta-navigation-bar-background: white;
+    --cib-color-beta-navigation-item-selection: rgba(167, 224, 235, 0.20);
+    --cib-color-beta-large-upsell-background: radial-gradient(61.04% 89.69% at 100% 100%, rgba(117, 158, 222, 0.00) 0%, rgba(117, 158, 222, 0.08) 40.63%, rgba(117, 158, 222, 0.00) 100%), radial-gradient(91.93% 49.25% at 77.63% 79.09%, rgba(0, 104, 128, 0.08) 0%, rgba(0, 104, 128, 0.00) 100%), linear-gradient(180deg, rgba(0, 104, 128, 0.00) 0%, rgba(0, 104, 128, 0.06) 100%), linear-gradient(90deg, #D9E9EF 0%, #ECFCFF 100%);
+    --cib-color-beta-auxiliary-chip-background: #EBF5FC;
+    --cib-color-beta-underside: #6E6E6E;
+    --cib-color-icon-red-cancel: #C42B1C;
+    --cib-color-icon-green-confirm: #0F7B0F;
+    --cib-color-icon-add-thin: #75306C;
+    --cib-image-background: url("https://www.bing.com/cdx/bg.jpg");
+    --cib-shadow-card: 0px 0.3px 0.9px rgba(0, 0, 0, 0.12), 0px 1.6px 3.6px rgba(0, 0, 0, 0.16);
+    --cib-shadow-card-raised: 0px 0.6px 1.8px rgba(0, 0, 0, 0.12), 0px 3.2px 7.2px rgba(0, 0, 0, 0.16);
+    --cib-shadow-dialog: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
+    --cib-shadow-flyout: 0px 1.2px 3.6px rgba(0, 0, 0, 0.16), 0px 6.4px 14.4px rgba(0, 0, 0, 0.2);
+    --cib-shadow-layer: 0px 0.15px 0.45px rgba(0, 0, 0, 0.12), 0px 0.8px 1.8px rgba(0, 0, 0, 0.16);
+    --cib-shadow-panel: 0px 14px 28px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.2);
+    --cib-shadow-tooltip: 0px 1.2px 3.6px rgba(0, 0, 0, 0.16), 0px 6.4px 14.4px rgba(0, 0, 0, 0.2);
+    --cib-shadow-elevation-1: 0px 0.075px 0.225px rgba(0, 0, 0, 0.12), 0px 0.4px 0.9px rgba(0, 0, 0, 0.16);
+    --cib-shadow-elevation-2: 0px 0.15px 0.45px rgba(0, 0, 0, 0.12), 0px 0.8px 1.8px rgba(0, 0, 0, 0.16);
+    --cib-shadow-elevation-4: 0px 0.3px 0.9px rgba(0, 0, 0, 0.12), 0px 1.6px 3.6px rgba(0, 0, 0, 0.16);
+    --cib-shadow-elevation-8: 0px 0.6px 1.8px rgba(0, 0, 0, 0.12), 0px 3.2px 7.2px rgba(0, 0, 0, 0.16);
+    --cib-shadow-elevation-16: 0px 1.2px 3.6px rgba(0, 0, 0, 0.16), 0px 6.4px 14.4px rgba(0, 0, 0, 0.2);
+    --cib-shadow-elevation-28: 0px 14px 28px rgba(0, 0, 0, 0.24), 0px 0px 8px rgba(0, 0, 0, 0.2);
+    --cib-shadow-elevation-64: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
+    --cib-border-radius-none: 0;
+    --cib-border-radius-small: 2px;
+    --cib-border-radius-medium: 4px;
+    --cib-border-radius-large: 8px;
+    --cib-border-radius-extra-large: 12px;
+    --cib-border-radius-xx-large: 22px;
+    --cib-border-radius-circular: 10000px;
+    --cib-font-text: -apple-system, Roboto, SegoeUI, 'Segoe UI', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'Meiryo UI', Meiryo, Arial Unicode MS, sans-serif;
+    --cib-font-icons: 'Fluent Icons';
+    --cib-type-caption2-font-size: 10px;
+    --cib-type-caption2-line-height: 14px;
+    --cib-type-caption2-font-weight: 400;
+    --cib-type-caption2-font-variation-settings: unset;
+    --cib-type-caption2-strong-font-size: 10px;
+    --cib-type-caption2-strong-line-height: 14px;
+    --cib-type-caption2-strong-font-weight: 600;
+    --cib-type-caption2-strong-font-variation-settings: unset;
+    --cib-type-caption1-font-size: 12px;
+    --cib-type-caption1-line-height: 16px;
+    --cib-type-caption1-font-weight: 400;
+    --cib-type-caption1-font-variation-settings: unset;
+    --cib-type-caption1-strong-font-size: 12px;
+    --cib-type-caption1-strong-line-height: 16px;
+    --cib-type-caption1-strong-font-weight: 600;
+    --cib-type-caption1-strong-font-variation-settings: unset;
+    --cib-type-caption1-stronger-font-size: 12px;
+    --cib-type-caption1-stronger-line-height: 16px;
+    --cib-type-caption1-stronger-font-weight: 700;
+    --cib-type-caption1-stronger-font-variation-settings: unset;
+    --cib-type-body1-font-size: 14px;
+    --cib-type-body1-line-height: 20px;
+    --cib-type-body1-font-weight: 400;
+    --cib-type-body1-font-variation-settings: unset;
+    --cib-type-body1-strong-font-size: 14px;
+    --cib-type-body1-strong-line-height: 20px;
+    --cib-type-body1-strong-font-weight: 500;
+    --cib-type-body1-strong-font-variation-settings: unset;
+    --cib-type-body1-stronger-font-size: 14px;
+    --cib-type-body1-stronger-line-height: 20px;
+    --cib-type-body1-stronger-font-weight: 600;
+    --cib-type-body1-stronger-font-variation-settings: unset;
+    --cib-type-body2-font-size: 16px;
+    --cib-type-body2-line-height: 24px;
+    --cib-type-body2-font-weight: 400;
+    --cib-type-body2-font-variation-settings: unset;
+    --cib-type-body2-stronger-font-size: 16px;
+    --cib-type-body2-stronger-line-height: 22px;
+    --cib-type-body2-stronger-font-weight: 700;
+    --cib-type-body2-stronger-font-variation-settings: unset;
+    --cib-type-subtitle2-font-size: 16px;
+    --cib-type-subtitle2-line-height: 24px;
+    --cib-type-subtitle2-font-weight: 500;
+    --cib-type-subtitle2-font-variation-settings: unset;
+    --cib-type-subtitle2-stronger-font-size: 16px;
+    --cib-type-subtitle2-stronger-line-height: 24px;
+    --cib-type-subtitle2-stronger-font-weight: 600;
+    --cib-type-subtitle2-stronger-font-variation-settings: unset;
+    --cib-type-subtitle1-font-size: 20px;
+    --cib-type-subtitle1-line-height: 26px;
+    --cib-type-subtitle1-font-weight: 500;
+    --cib-type-subtitle1-font-variation-settings: unset;
+    --cib-type-subtitle1-stronger-font-size: 20px;
+    --cib-type-subtitle1-stronger-line-height: 26px;
+    --cib-type-subtitle1-stronger-font-weight: 600;
+    --cib-type-subtitle1-stronger-font-variation-settings: unset;
+    --cib-type-message-font-size: 18px;
+    --cib-type-message-line-height: 24px;
+    --cib-type-message-font-weight: 400;
+    --cib-type-message-font-variation-settings: unset;
+    --cib-type-message-strong-font-size: 18px;
+    --cib-type-message-strong-line-height: 24px;
+    --cib-type-message-strong-font-weight: 600;
+    --cib-type-message-strong-font-variation-settings: unset;
+    --cib-type-title3-font-size: 24px;
+    --cib-type-title3-line-height: 32px;
+    --cib-type-title3-font-weight: 600;
+    --cib-type-title3-font-variation-settings: unset;
+    --cib-type-title2-font-size: 28px;
+    --cib-type-title2-line-height: 36px;
+    --cib-type-title2-font-weight: 600;
+    --cib-type-title2-font-variation-settings: unset;
+    --cib-type-title1-font-size: 32px;
+    --cib-type-title1-line-height: 40px;
+    --cib-type-title1-font-weight: 600;
+    --cib-type-title1-font-variation-settings: unset;
+    --cib-type-large-title-font-size: 40px;
+    --cib-type-large-title-line-height: 52px;
+    --cib-type-large-title-font-weight: 600;
+    --cib-type-large-title-font-variation-settings: unset;
+    --cib-type-display-font-size: 68px;
+    --cib-type-display-line-height: 92px;
+    --cib-type-display-font-weight: 600;
+    --cib-type-display-font-variation-settings: unset;
+    --cib-motion-duration-faster: 83ms;
+    --cib-motion-duration-fast: 187ms;
+    --cib-motion-duration-normal: 333ms;
+    --cib-motion-duration-slow: 500ms;
+    --cib-motion-duration-slower: 667ms;
+    --cib-motion-duration-slowest: 1000ms;
+    --cib-motion-duration-faster-number: 83;
+    --cib-motion-duration-fast-number: 187;
+    --cib-motion-duration-normal-number: 333;
+    --cib-motion-duration-slow-number: 500;
+    --cib-motion-duration-slower-number: 667;
+    --cib-motion-duration-slowest-number: 1000;
+    --cib-motion-easing-linear: cubic-bezier(0, 0, 1, 1);
+    --cib-motion-easing-in: cubic-bezier(0, 0, 0, 1);
+    --cib-motion-easing-out: cubic-bezier(1, 0, 1, 1);
+    --cib-motion-easing-strong: cubic-bezier(0.13, 1.62, 0, 0.92);
+    --cib-motion-easing-direct: cubic-bezier(0.55, 0, 0, 1);
+    --cib-motion-easing-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --cib-motion-easing-transition: cubic-bezier(0.75, 0, 0.25, 1);
+}
+	
+	
+	
+	
+	
+	
+	
+	
 }
