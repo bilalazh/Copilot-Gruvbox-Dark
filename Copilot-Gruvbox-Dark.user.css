@@ -188,7 +188,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	:root {
 /*You icon color */
     --cib-color-foreground-accent-primary: #FFD29C !important;
-    --cib-color-foreground-accent-secondary: #0E350E!important;
+    --cib-color-foreground-accent-secondary: #FBF1C7!important;
 		
 /*Maon text color 		 */
     --cib-color-foreground-accent-tertiary: #FFD29C!important;
@@ -230,7 +230,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-foreground-neutral-disabled: rgba(17,17,17,0.4);
     --cib-color-foreground-on-accent-strong-primary: #16181A !important;
     --cib-color-foreground-on-accent-strong-secondary: #A4AD9E !important;
-    --cib-color-foreground-on-accent-strong-disabled: #D5C4A1 !important;
+    --cib-color-foreground-on-accent-strong-disabled: #E7EEF5 !important;
     --cib-color-foreground-system-attention-primary: #E41897 !important;
     --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
     --cib-color-foreground-system-caution-primary: #1F1E1D  !important;
@@ -245,7 +245,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 /* Stop responding button 		 */
-    --cib-color-fill-accent-secondary: #CC241D !important;
+    --cib-color-fill-accent-secondary: #79740E !important;
 		
 		
     --cib-color-fill-accent-tertiary: #FABD2F !important;
@@ -337,8 +337,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /* Recommenadtion pill on the icons 		 */
     --cib-color-fill-neutral-strong-primary: #FFD29C !important;
-    --cib-color-fill-neutral-strong-secondary:#FB4934 !important;
-    --cib-color-fill-neutral-strong-tertriary: #FB4934 !important;
+    --cib-color-fill-neutral-strong-secondary:#FABD2F !important;
+    --cib-color-fill-neutral-strong-tertriary: #FABD2F !important;
     --cib-color-fill-neutral-strong-disabled: rgba(68,68,68,0.3);
 		
 /*Input area color  		 */
@@ -360,15 +360,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-subtle-alt-primary: rgba(0,0,0,0.06);
     --cib-color-fill-subtle-alt-secondary: rgba(0,0,0,0.1);
     --cib-color-fill-subtle-alt-tertiary: rgba(0,0,0,0.2);
-    --cib-color-fill-accent-gradient-balanced-primary: linear-gradient(130deg, #2870EA 20%, #1B4AEF 77.5%);
-    --cib-color-fill-accent-gradient-balanced-secondary: linear-gradient(130deg, #2870EA 20%, #1B4AEF 77.5%),linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
-    --cib-color-fill-accent-gradient-balanced-tertiary: linear-gradient(130deg, #2870EA 20%, #1B4AEF 77.5%),linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    --cib-color-fill-accent-gradient-creative-primary: linear-gradient(130deg, #914887 20%, #8B257E 77.5%);
-    --cib-color-fill-accent-gradient-creative-secondary: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(130deg, #914887 20%, #8B257E 77.5%);
-    --cib-color-fill-accent-gradient-creative-tertiary: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(130deg, #914887 20%, #8B257E 77.5%);
-    --cib-color-fill-accent-gradient-precise-primary: linear-gradient(130deg, #006880 20%, #005366 77.5%);
-    --cib-color-fill-accent-gradient-precise-secondary: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(130deg, #006880 20%, #005366 77.5%);
-    --cib-color-fill-accent-gradient-precise-tertiary: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(130deg, #006880 20%, #005366 77.5%);
+    --cib-color-fill-accent-gradient-balanced-primary:red !important ; 
     --cib-color-fill-accent-gradient-customized-primary: #0F0;
     --cib-color-background-surface-app-primary: #0F0 !important;
     --cib-color-background-surface-app-secondary: #0F0 !important;
@@ -381,9 +373,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-background-surface-card-secondary: #D79921 !important;
 /*Citation card bg  		 */
     --cib-color-background-surface-card-tertiary: #FFD29C !important;
-    --cib-color-background-surface-card-disabled: #F00 !important;
-    --cib-color-background-surface-smoke-primary: #F00 !important;
-    --cib-color-background-surface-solid-base:#FB4934 !important;
+    --cib-color-background-surface-card-disabled: #0F0 !important;
+    --cib-color-background-surface-smoke-primary: #0F0 !important;
+    --cib-color-background-surface-solid-base:#0F0 !important;
 		
 		
 /*Man App background 		 */
@@ -393,20 +385,26 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-background-surface-solid-tertiary: #F9F9F9;
     --cib-color-background-surface-solid-quaternary: #FFFFFF;
     --cib-color-background-system-attention-primary: rgba(255,255,255,0.5);
-    --cib-color-background-system-attention-strong: #106EBE;
+    --cib-color-background-system-attention-strong: #D2E1EE;
     --cib-color-background-system-success-primary: #DFF6DD;
     --cib-color-background-system-success-strong: #0F7B0F;
     --cib-color-background-system-caution-primary: #FFF4CE;
     --cib-color-background-system-caution-strong: #9D5D00;
     --cib-color-background-system-critical-primary: #FDE7E9;
     --cib-color-background-system-critical-strong: #C42B1C;
-    --cib-color-background-free-sydney-primary: linear-gradient(106deg, #FFDEF8 -12.97%, #DDDAFF 66.67%, #FFF7E6 108.31%);
+    --cib-color-background-free-sydney-primary:#FABD2F !important  ; 
     --cib-color-background-customized-gpt-primary: linear-gradient(0deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.65) 100%), linear-gradient(106deg, #B7D2AD 6.96%, #B4D1AD 29.25%, #99C6B8 63.73%, #76AB88 97.7%);
     --cib-color-background-first-party-gpt-primary: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), linear-gradient(106deg, #D2BFAD 6.96%, #CBBDA2 66.72%, #C3B288 99.98%);
-    --cib-color-stroke-accent-primary: #006880;
-    --cib-color-stroke-accent-secondary: #006880;
-    --cib-color-stroke-accent-tertiary: #006880;
+		
+		
+		/* Suggestive proptts backgorund 		 */
+    --cib-color-stroke-accent-primary: #79740E!important;
+		
+
+    --cib-color-stroke-accent-secondary: #98971A !important;
+    --cib-color-stroke-accent-tertiary: #B8BB26!important;
     --cib-color-stroke-accent-quaternary: #E0E0E0;
+		
     --cib-color-stroke-accent-disabled: rgba(0,104,128,0.3);
     --cib-color-stroke-accent-balanced-primary: #174AE4;
     --cib-color-stroke-accent-creative-primary: #742F6B;
