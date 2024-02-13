@@ -167,12 +167,28 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
+/* 	Prompt sugestions first page */
 	
-	
-	
+	.welcome_description, .welcome_category, .b_sunotc, .b_sunotc a:not(:visited) {
+    line-height: 20px;
+    color: #FFD29C;
+}
 
-	
-	
+/* Prompt vard bg color 	 */
+	.zpcarousel .wt_cont {
+    padding: 8px 12px 8px 12px;
+    background: #225536;
+    width: 220px;
+    height: 60px;
+    position: relative;
+    top: -20px;
+    border-radius: 8px;
+    font-size: 14px;
+    z-index: 1;
+    box-shadow: 0 6.400000095px 14.399999619px 0 #00000021;
+    overflow: hidden;
+    opacity: 0;
+}
 
 	
 	
@@ -414,8 +430,15 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-background-surface-solid-primary: #1A1B1D !important;
 		
     --cib-color-background-surface-solid-secondary:#E36209 !important;
-    --cib-color-background-surface-solid-tertiary: #F9F9F9;
-    --cib-color-background-surface-solid-quaternary: #FFFFFF;
+		
+		
+		
+		
+		
+		
+/* 	Tool Tip when hovering on the models ->MODELS tool tip	 */
+    --cib-color-background-surface-solid-tertiary: #8F3F71 !important;
+    --cib-color-background-surface-solid-quaternary: #F00;
     --cib-color-background-system-attention-primary: rgba(255,255,255,0.5);
     --cib-color-background-system-attention-strong: #D2E1EE;
     --cib-color-background-system-success-primary: #DFF6DD;
