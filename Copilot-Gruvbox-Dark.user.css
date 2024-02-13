@@ -239,19 +239,26 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /* 	Icon highlight pill 
 		*/
-    --cib-color-foreground-on-accent-strong-primary: #E41897 
+    --cib-color-foreground-on-accent-strong-primary: #0F0 
 		
 		!important;
-    --cib-color-foreground-on-accent-strong-secondary: #E41897 !important;
-    --cib-color-foreground-on-accent-strong-disabled: #E41897 !important;
-    --cib-color-foreground-system-attention-primary: #E41897 !important;
+    --cib-color-foreground-on-accent-strong-secondary: #0F0 !important;
+    --cib-color-foreground-on-accent-strong-disabled: #0F0 !important;
+    --cib-color-foreground-system-attention-primary: #0F0 !important;
     --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
     --cib-color-foreground-system-caution-primary: #1F1E1D  !important;
     --cib-color-foreground-system-critical-primary: #8EC07C !important;
-    --cib-color-foreground-system-link-primary: #939F91 !important ;
-    --cib-color-foreground-system-neutral-primary: #E41897 !important;
-    --cib-color-foreground-system-neutral-strong: #E41897 !important;
-    --cib-color-foreground-system-success-primary:#E41897 !important;
+		
+		
+		
+/* 	A ->link sinthe reponse body 	 */
+/* Basiccaally all the links in the chat 		 */
+    --cib-color-foreground-system-link-primary: #FB4934 !important ;
+   
+		
+		--cib-color-foreground-system-neutral-primary: #0F0 !important;
+    --cib-color-foreground-system-neutral-strong: #0F0 !important;
+    --cib-color-foreground-system-success-primary:#0F0 !important;
 		
 /* 	Feeback button bg 	 */
     --cib-color-fill-accent-primary: #16181A !important;
@@ -262,7 +269,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-accent-secondary: #3E3B07 !important;
 		
 		
-    --cib-color-fill-accent-tertiary: #E41897 !important;
+    --cib-color-fill-accent-tertiary: #0F0 !important;
     --cib-color-fill-accent-quaternary: #0F0 !important;
 		
     --cib-color-fill-accent-disabled: #0F0 !important;
@@ -276,17 +283,19 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-    --cib-color-fill-accent-alt-tertiary: #E41897 !important;
+    --cib-color-fill-accent-alt-tertiary: #0F0 !important;
 
 		
 		/* 	Citations Numbering button 	 */
 		
 		
     --cib-color-fill-accent-alt-quaternary: #16181A !important;
-    --cib-color-fill-accent-alt-quinary: #E41897 !important;
-    --cib-color-fill-accent-alt-disabled: #E41897 !important;
+    --cib-color-fill-accent-alt-quinary: #0F0 !important;
+    --cib-color-fill-accent-alt-disabled: #0F0 !important;
+		
+		
 /*Precise button and New topc buttton bg  		 */
-    --cib-color-fill-accent-gradient-primary: #79740E !important;
+    --cib-color-fill-accent-gradient-primary: #CC241D !important;
 		
 		
 		
@@ -296,27 +305,27 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-    --cib-color-fill-accent-gradient-secondary: #E41897 !important ;
-    --cib-color-fill-accent-gradient-tertiary: #E41897 !important ;
+    --cib-color-fill-accent-gradient-secondary: #0F0 !important ;
+    --cib-color-fill-accent-gradient-tertiary: #0F0 !important ;
     --cib-color-fill-accent-gradient-quaternary:#79740E !important;
     --cib-color-fill-accent-strong-primary: #79740E !important;
-    --cib-color-fill-accent-strong-secondary: #E41897 !important;
+    --cib-color-fill-accent-strong-secondary: #0F0 !important;
     --cib-color-fill-accent-strong-tertiary: #3E3B07 !important  ; 
     --cib-color-fill-accent-strong-disabled: rgba(0,104,128,0.3);
-    --cib-color-fill-accent-speech-primary: #E41897 !important;
-    --cib-color-fill-accent-speech-secondary: #E41897 !important;
-    --cib-color-fill-accent-speech-tertiary: #E41897 !important;
-    --cib-color-fill-accent-alt-balanced-primary: #E41897 !important;
-    --cib-color-fill-accent-alt-creative-primary:#E41897 !important;
-    --cib-color-fill-accent-alt-precise-primary: #E41897 !important;
-    --cib-color-fill-accent-balanced-primary: #E41897 !important;
-    --cib-color-fill-accent-creative-primary: #9D1B6C !important;
-    --cib-color-fill-accent-precise-primary: #E41897 !important;
-    --cib-color-fill-accent-balanced-secondary: #E41897 !important;
+    --cib-color-fill-accent-speech-primary: #0F0 !important;
+    --cib-color-fill-accent-speech-secondary: #0F0 !important;
+    --cib-color-fill-accent-speech-tertiary: #0F0 !important;
+    --cib-color-fill-accent-alt-balanced-primary: #0F0 !important;
+    --cib-color-fill-accent-alt-creative-primary:#0F0 !important;
+    --cib-color-fill-accent-alt-precise-primary: #0F0 !important;
+    --cib-color-fill-accent-balanced-primary: #0F0 !important;
+    --cib-color-fill-accent-creative-primary: #0F0 !important;
+    --cib-color-fill-accent-precise-primary: #0F0 !important;
+    --cib-color-fill-accent-balanced-secondary: #0F0 !important;
     --cib-color-fill-accent-creative-secondary: #066F06 !important;
     --cib-color-fill-accent-precise-secondary: #0E350E !important;
     --cib-color-fill-accent-gradient-balanced-quaternary: #E41897 !important;
-    --cib-color-fill-accent-gradient-creative-quaternary: #E41897 !important;
+    --cib-color-fill-accent-gradient-creative-quaternary: #0F0 !important;
     --cib-color-fill-accent-gradient-precise-quaternary: #E41897 !important;
 		
 /* Right hand side blugin -> Icons backgorund in  the plugin 		 */
@@ -353,8 +362,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /* Recommenadtion pill on the icons 		 */
     --cib-color-fill-neutral-strong-primary: #FFD29C !important;
-    --cib-color-fill-neutral-strong-secondary:#E41897 !important;
-    --cib-color-fill-neutral-strong-tertriary: #E41897 !important;
+    --cib-color-fill-neutral-strong-secondary:#0F0 !important;
+    --cib-color-fill-neutral-strong-tertriary: #0F0 !important;
     --cib-color-fill-neutral-strong-disabled: rgba(68,68,68,0.3);
 		
 /*Input area color  		 */
@@ -369,7 +378,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-subtle-tertiary: rgba(0,0,0,0.1);
     --cib-color-fill-subtle-quaternary: rgba(0,0,0,0.2);
 		
-    --cib-color-fill-subtle-quinary: #D79921 !important;
+/*Older Chats side bar styles  		 */
+    --cib-color-fill-subtle-quinary: #79740E !important;
     --cib-color-fill-subtle-senary: #919191;
     --cib-color-fill-subtle-disabled: transparent;
     --cib-color-fill-subtle-transparent: transparent;
@@ -377,18 +387,22 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-subtle-alt-secondary: rgba(0,0,0,0.1);
     --cib-color-fill-subtle-alt-tertiary: rgba(0,0,0,0.2);
     --cib-color-fill-accent-gradient-balanced-primary:red !important ; 
-    --cib-color-fill-accent-gradient-customized-primary: #E41897;
+    --cib-color-fill-accent-gradient-customized-primary: #0F0;
 		
 /* Image added to chat backgrond 		-> Image bg added in the input area  */
     --cib-color-background-surface-app-primary: #CC241D !important;
-    --cib-color-background-surface-app-secondary: #E41897 !important;
+		
+		
+/*Old chats button hover  		 */
+    --cib-color-background-surface-app-secondary: #9D0006 !important;
 		
 		
 /*Choose model bakground 		 */
     --cib-color-background-surface-card-primary: #1D1B1A !important;
 		
 		
-    --cib-color-background-surface-card-secondary: #D79921 !important;
+/* Plugins side bar cards 		 */
+    --cib-color-background-surface-card-secondary: #1D2021 !important;
 /*Citation card bg  		 */
     --cib-color-background-surface-card-tertiary: #FFD29C !important;
     --cib-color-background-surface-card-disabled: #E41897 !important;
