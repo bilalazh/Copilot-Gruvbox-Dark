@@ -213,10 +213,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		line-height: 0.6rem !important ; 
 	}
 	
-	
 
-	
-	
+
 	
 	
 	:root {
@@ -480,20 +478,58 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
     --cib-color-stroke-accent-secondary: #98971A !important;
     --cib-color-stroke-accent-tertiary: #B8BB26!important;
-    --cib-color-stroke-accent-quaternary: #E0E0E0;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ 
+    --cib-color-stroke-accent-quaternary: #F00 !important;
 		
     --cib-color-stroke-accent-disabled: rgba(0,104,128,0.3);
-    --cib-color-stroke-accent-balanced-primary: #174AE4;
-    --cib-color-stroke-accent-creative-primary: #742F6B;
-    --cib-color-stroke-accent-precise-primary: #006880;
-    --cib-color-stroke-accent-balanced-secondary: #174AE4;
-    --cib-color-stroke-accent-creative-secondary: #75306C;
-    --cib-color-stroke-accent-precise-secondary: #006880;
+    --cib-color-stroke-accent-balanced-primary: #F00 !important;
+    --cib-color-stroke-accent-creative-primary: #F00 !important;
+    --cib-color-stroke-accent-precise-primary: #F00 !important;
+    --cib-color-stroke-accent-balanced-secondary: #F00!important;
+    --cib-color-stroke-accent-creative-secondary: #F00 !important;
+    --cib-color-stroke-accent-precise-secondary: #F00!important;
     --cib-color-stroke-neutral-primary: rgba(0,0,0,0.1);
-    --cib-color-stroke-neutral-secondary: rgba(0,0,0,0.2);
+		
+		
+
+ 
+		
+/* Citation counter 		 */
+    --cib-color-stroke-neutral-secondary: #79740E!important;
+		
+		
+		
+		
     --cib-color-stroke-neutral-tertiary: transparent;
-    --cib-color-stroke-neutral-quarternary: #D1D1D1;
-    --cib-color-stroke-neutral-alt-primary: rgba(0,0,0,0.3);
+		
+		
+/* Border color 		 */
+    --cib-color-stroke-neutral-quarternary: #79740E!important;
+    --cib-color-stroke-neutral-alt-primary: #6FFF00!important;
     --cib-color-stroke-surface-card-primary: transparent;
     --cib-color-stroke-surface-card-solid: transparent;
     --cib-color-stroke-surface-divider-primary: rgba(0,0,0,0.1);
@@ -516,20 +552,20 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-    --cib-color-syntax-background-green: #1B4721;
-    --cib-color-syntax-background-red: #78191B;
-    --cib-color-syntax-blue: #005CC5;
-    --cib-color-syntax-blue-strong: #032F62;
-    --cib-color-syntax-gold: #735C0F;
-    --cib-color-syntax-gray: #6A737D;
-    --cib-color-syntax-gray-strong: #24292E;
-    --cib-color-syntax-green: #22863A;
-    --cib-color-syntax-orange: #E36209;
-    --cib-color-syntax-purple: #6F42C1;
-    --cib-color-syntax-red: #D73A49;
-    --cib-color-syntax-red-strong: #B31D28;
-    --cib-comp-action-bar-search-border-radius: 24px;
-    --cib-comp-conversation-max-width: 1120px;
+    --cib-color-syntax-background-green: #F00!important;
+    --cib-color-syntax-background-red: #F00 !important;
+    --cib-color-syntax-blue: #B8BB26 !important;
+    --cib-color-syntax-blue-strong: #8EC07C !important;
+    --cib-color-syntax-gold: #458588 !important;
+    --cib-color-syntax-gray: #5A93A2 !important;
+    --cib-color-syntax-gray-strong: #FE8019 !important;
+    --cib-color-syntax-green: #FE8019 !important;
+    --cib-color-syntax-orange: #FE8019 !important;
+    --cib-color-syntax-purple: #D3869B !important;
+    --cib-color-syntax-red: #FB4934 !important;
+    --cib-color-syntax-red-strong: #F00 !important;
+    --cib-comp-action-bar-search-border-radius: 34px !important;
+    --cib-comp-conversation-max-width: 1220px !important;
     --cib-comp-copy-host-border-radius: 8px;
     --cib-comp-copy-button-border-radius: 6px;
     --cib-comp-feedback-host-border-radius: 8px;
@@ -702,4 +738,4 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
-}
+} 
