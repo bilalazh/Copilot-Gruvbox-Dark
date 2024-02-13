@@ -161,10 +161,11 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	}
 	
+
+
+
 	
-	
-	
-	
+
 	
 	
 /* 	Prompt sugestions first page */
@@ -191,12 +192,29 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 }
 
 	
+/* 	Main Coplit logo  */
+	.b_wlcmName {
+		color: #504945 !important ; 
+		font-family: "chivo"  , sans-serif !important ; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 12px;
+    text-align: center;
+}
 	
 	
 	
+/* Your everysy AI companion 	 */
+	.b_wlcmDesc{
+		color : #7C6F64 !important ; 
+		font-family: "chivo" , sans-serif !important ; 
+		font-weight:  400 !important ; 
+		line-height: 0.6rem !important ; 
+	}
 	
 	
-	
+
 	
 	
 	
@@ -237,6 +255,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
+	
+		
+		
 		
 /*Sign in older chats  	-> chats on the right 	 */
 /* This Applies to main text and other places too -< changing this may break otherstuff  as well 		 */
@@ -251,16 +272,18 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
     --cib-color-foreground-neutral-quaternary: #D3869B !important;
-    --cib-color-foreground-neutral-disabled: rgba(17,17,17,0.4);
+		
+/* Autocomplete 		 */
+    --cib-color-foreground-neutral-disabled: #79740E!important;
 		
 /* 	Icon highlight pill 
 		*/
-    --cib-color-foreground-on-accent-strong-primary: #0F0 
+    --cib-color-foreground-on-accent-strong-primary: #16181A 
 		
 		!important;
-    --cib-color-foreground-on-accent-strong-secondary: #0F0 !important;
-    --cib-color-foreground-on-accent-strong-disabled: #0F0 !important;
-    --cib-color-foreground-system-attention-primary: #0F0 !important;
+    --cib-color-foreground-on-accent-strong-secondary: #F00 !important;
+    --cib-color-foreground-on-accent-strong-disabled: #F00 !important;
+    --cib-color-foreground-system-attention-primary: #F00 !important;
     --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
     --cib-color-foreground-system-caution-primary: #1F1E1D  !important;
     --cib-color-foreground-system-critical-primary: #8EC07C !important;
@@ -272,9 +295,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-foreground-system-link-primary: #FB4934 !important ;
    
 		
-		--cib-color-foreground-system-neutral-primary: #0F0 !important;
-    --cib-color-foreground-system-neutral-strong: #0F0 !important;
-    --cib-color-foreground-system-success-primary:#0F0 !important;
+		--cib-color-foreground-system-neutral-primary: #F00 !important;
+    --cib-color-foreground-system-neutral-strong: #F00 !important;
+    --cib-color-foreground-system-success-primary:#F00 !important;
 		
 /* 	Feeback button bg 	 */
     --cib-color-fill-accent-primary: #16181A !important;
@@ -285,10 +308,10 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-accent-secondary: #3E3B07 !important;
 		
 		
-    --cib-color-fill-accent-tertiary: #0F0 !important;
-    --cib-color-fill-accent-quaternary: #0F0 !important;
+    --cib-color-fill-accent-tertiary: #F00 !important;
+    --cib-color-fill-accent-quaternary: #F00 !important;
 		
-    --cib-color-fill-accent-disabled: #0F0 !important;
+    --cib-color-fill-accent-disabled: #F00 !important;
 		
 		
 /*You bUtton color bg  		 */
@@ -299,15 +322,15 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-    --cib-color-fill-accent-alt-tertiary: #0F0 !important;
+    --cib-color-fill-accent-alt-tertiary: #F00 !important;
 
 		
 		/* 	Citations Numbering button 	 */
 		
 		
     --cib-color-fill-accent-alt-quaternary: #16181A !important;
-    --cib-color-fill-accent-alt-quinary: #0F0 !important;
-    --cib-color-fill-accent-alt-disabled: #0F0 !important;
+    --cib-color-fill-accent-alt-quinary: #F00 !important;
+    --cib-color-fill-accent-alt-disabled: #F00 !important;
 		
 		
 /*Precise button and New topc buttton bg  		 */
@@ -321,27 +344,27 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-    --cib-color-fill-accent-gradient-secondary: #0F0 !important ;
-    --cib-color-fill-accent-gradient-tertiary: #0F0 !important ;
+    --cib-color-fill-accent-gradient-secondary: #F00 !important ;
+    --cib-color-fill-accent-gradient-tertiary: #F00 !important ;
     --cib-color-fill-accent-gradient-quaternary:#79740E !important;
     --cib-color-fill-accent-strong-primary: #79740E !important;
-    --cib-color-fill-accent-strong-secondary: #0F0 !important;
+    --cib-color-fill-accent-strong-secondary: #F00 !important;
     --cib-color-fill-accent-strong-tertiary: #3E3B07 !important  ; 
     --cib-color-fill-accent-strong-disabled: rgba(0,104,128,0.3);
-    --cib-color-fill-accent-speech-primary: #0F0 !important;
-    --cib-color-fill-accent-speech-secondary: #0F0 !important;
-    --cib-color-fill-accent-speech-tertiary: #0F0 !important;
-    --cib-color-fill-accent-alt-balanced-primary: #0F0 !important;
-    --cib-color-fill-accent-alt-creative-primary:#0F0 !important;
-    --cib-color-fill-accent-alt-precise-primary: #0F0 !important;
-    --cib-color-fill-accent-balanced-primary: #0F0 !important;
-    --cib-color-fill-accent-creative-primary: #0F0 !important;
-    --cib-color-fill-accent-precise-primary: #0F0 !important;
-    --cib-color-fill-accent-balanced-secondary: #0F0 !important;
+    --cib-color-fill-accent-speech-primary: #F00 !important;
+    --cib-color-fill-accent-speech-secondary: #F00 !important;
+    --cib-color-fill-accent-speech-tertiary: #F00 !important;
+    --cib-color-fill-accent-alt-balanced-primary: #F00 !important;
+    --cib-color-fill-accent-alt-creative-primary:#F00 !important;
+    --cib-color-fill-accent-alt-precise-primary: #F00 !important;
+    --cib-color-fill-accent-balanced-primary: #F00 !important;
+    --cib-color-fill-accent-creative-primary: #F00 !important;
+    --cib-color-fill-accent-precise-primary: #F00 !important;
+    --cib-color-fill-accent-balanced-secondary: #F00 !important;
     --cib-color-fill-accent-creative-secondary: #066F06 !important;
     --cib-color-fill-accent-precise-secondary: #0E350E !important;
     --cib-color-fill-accent-gradient-balanced-quaternary: #E41897 !important;
-    --cib-color-fill-accent-gradient-creative-quaternary: #0F0 !important;
+    --cib-color-fill-accent-gradient-creative-quaternary: #F00 !important;
     --cib-color-fill-accent-gradient-precise-quaternary: #E41897 !important;
 		
 /* Right hand side blugin -> Icons backgorund in  the plugin 		 */
@@ -360,7 +383,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-neutral-alt-tertiary: #E41897 !important;
     --cib-color-fill-neutral-alt-quaternary: rgba(0,0,0,0.12);
     --cib-color-fill-neutral-alt-disabled: transparent;
-    --cib-color-fill-neutral-alt-transparent: transparent;
+    --cib-color-fill-neutral-alt-transparent: #1D202100;
 		
 		
 		
@@ -368,8 +391,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-		
-		
+	
 		
 		
 		
@@ -378,8 +400,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /* Recommenadtion pill on the icons 		 */
     --cib-color-fill-neutral-strong-primary: #FFD29C !important;
-    --cib-color-fill-neutral-strong-secondary:#0F0 !important;
-    --cib-color-fill-neutral-strong-tertriary: #0F0 !important;
+    --cib-color-fill-neutral-strong-secondary:#F00 !important;
+    --cib-color-fill-neutral-strong-tertriary: #F00 !important;
     --cib-color-fill-neutral-strong-disabled: rgba(68,68,68,0.3);
 		
 /*Input area color  		 */
@@ -403,7 +425,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-subtle-alt-secondary: rgba(0,0,0,0.1);
     --cib-color-fill-subtle-alt-tertiary: rgba(0,0,0,0.2);
     --cib-color-fill-accent-gradient-balanced-primary:red !important ; 
-    --cib-color-fill-accent-gradient-customized-primary: #0F0;
+    --cib-color-fill-accent-gradient-customized-primary: #F00;
 		
 /* Image added to chat backgrond 		-> Image bg added in the input area  */
     --cib-color-background-surface-app-primary: #CC241D !important;
@@ -482,7 +504,18 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-stroke-system-caution-primary: #9D5D00;
     --cib-color-stroke-system-critical-primary: #C42B1C;
     --cib-color-stroke-system-neutral-primary: rgba(0,0,0,0.45);
-    --cib-color-syntax-background-surface: rgba(0,0,0,0.03);
+		
+		
+		
+		
+
+		
+		
+/* Peoms and Pre background color 		 */
+    --cib-color-syntax-background-surface: #1D2021 !important;
+		
+		
+		
     --cib-color-syntax-background-green: #1B4721;
     --cib-color-syntax-background-red: #78191B;
     --cib-color-syntax-blue: #005CC5;
@@ -546,8 +579,14 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-shadow-elevation-64: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18), 0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
     --cib-border-radius-none: 0;
     --cib-border-radius-small: 2px;
-    --cib-border-radius-medium: 4px;
-    --cib-border-radius-large: 8px;
+		
+		
+		
+/* Citation border radius 		 */
+    --cib-border-radius-medium: 4px !important;
+    
+		
+		--cib-border-radius-large: 8px;
     --cib-border-radius-extra-large: 12px;
     --cib-border-radius-xx-large: 22px;
     --cib-border-radius-circular: 10000px;
@@ -659,7 +698,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 }
 	
 
-	
+
 	
 	
 	
