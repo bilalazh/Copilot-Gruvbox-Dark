@@ -214,6 +214,26 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 
+/* Ghibli style landscape 	 */
+	#gir_attr .cap {
+    color: #B16286;
+}
+	
+	
+	
+/* 	Powwerd by dallee  3  */
+	#gir_attr .dalle {
+    color: #F2E5BC;
+    background: #225536;
+}
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	
@@ -505,7 +525,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
  
     --cib-color-stroke-accent-quaternary: #F00 !important;
 		
-    --cib-color-stroke-accent-disabled: rgba(0,104,128,0.3);
+		
+/* The paragraph writeer tool thing		 */
+    --cib-color-stroke-accent-disabled: #FB4934 !important;
     --cib-color-stroke-accent-balanced-primary: #F00 !important;
     --cib-color-stroke-accent-creative-primary: #F00 !important;
     --cib-color-stroke-accent-precise-primary: #F00 !important;
@@ -548,7 +570,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 /* Peoms and Pre background color 		 */
-    --cib-color-syntax-background-surface: #1D2021 !important;
+    --cib-color-syntax-background-surface: #17191B !important;
 		
 		
 		
@@ -626,7 +648,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-border-radius-extra-large: 12px;
     --cib-border-radius-xx-large: 22px;
     --cib-border-radius-circular: 10000px;
-    --cib-font-text: -apple-system, Roboto, SegoeUI, 'Segoe UI', 'Helvetica Neue', Helvetica, 'Microsoft YaHei', 'Meiryo UI', Meiryo, Arial Unicode MS, sans-serif;
+    --cib-font-text: -apple-system, Roboto, SegoeUI, 'Chivo', 'Chivo', Helvetica, 'Chivo', 'Chivo', Meiryo, Arial Unicode MSsaddlebrown, sans-serif !important;
     --cib-font-icons: 'Fluent Icons';
     --cib-type-caption2-font-size: 10px;
     --cib-type-caption2-line-height: 14px;
@@ -738,4 +760,4 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
-} 
+}  
