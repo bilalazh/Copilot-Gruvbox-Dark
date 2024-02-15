@@ -23,6 +23,12 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 }
 
 @-moz-document domain("copilot.microsoft.com") {
+    /* Insert code here... */
+	
+
+	
+	
+	
 	
 	
 	    :root
@@ -141,12 +147,13 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 
 /* light colors */
-  --interface-light0-hard: #f9f5d7; 
-  --interface-light0: #fbf1c7; 
-  --interface-light0-soft: #f2e5bc;
-  --interface-light1: #ebdbb2;
-  --interface-light3: #bdae93;
-  --interface-light4: #a89988;
+  --interface-light0-hard: #f9f5d7; /* light0_hard: #f9f5d7 [h0] 230 [ ] 249-245-215 248-244-205 #f8f4cd */
+  --interface-light0: #fbf1c7; /* light0: #fbf1c7 [fg0][bg0] 229 [0] 251-241-199 250-238-187 #faeebb */
+  --interface-light0-soft: #f2e5bc; /* light0_soft: #f2e5bc [s0] 228 [ ] 242-229-188 239-223-174 #efdfae */
+  --interface-light1: #ebdbb2; /* light1: #ebdbb2 [fg1][bg1] 223 [15] 235-219-178 230-212-163 #e6d4a3 */
+  --interface-light2: #d5c4a1; /* light2: #d5c4a1 [fg2][bg2] 250 [ ] 213-196-161 203-184-144 #cbb890 */
+  --interface-light3: #bdae93; /* light3: #bdae93 [fg3][bg3] 248 [ ] 189-174-147 175-159-129 #af9f81 */
+  --interface-light4: #a89988; /* light4: #a89988 */
 
 
  
