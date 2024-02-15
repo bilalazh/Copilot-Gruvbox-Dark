@@ -131,12 +131,12 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 
 
- --dark-red: #9d0006;    /* faded_red: #9d0006 [red] 88 [9] 157-0-6 137-0-9 #890009 */
-  --dark-green: #79740e;  /* faded_green: #79740e [green] 100 [10] 121-116-14 102-98-13 #66620d */
-  --dark-yellow: #b57614; /* faded_yellow: #b57614 [yellow] 136 [11] 181-118-20 165-99-17 #a56311 */
-  --dark-blue: #076678;   /* faded_blue: #076678 [blue] 24 [12] 7-102-120 14-83-101 #0e5365 */
-  --dark-purple: #8f3f71; /* faded_purple: #8f3f71 [purple] 96 [13] 143-63-113 123-43-94 #7b2b5e */
-  --dark-aqua: #427b58;   /* faded_aqua: #427b58 [aqua] 66 [14] 66-123-88 53-106-70 #356a46 */
+ --dark-red: #9d0006;    
+  --dark-green: #79740e;  
+  --dark-yellow: #b57614; 
+  --dark-blue: #076678;   
+  --dark-purple: #8f3f71; 
+  --dark-aqua: #427b58;   
   --dark-orange: #af3a03;
 
 
