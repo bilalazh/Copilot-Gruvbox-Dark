@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           copilot.microsoft.com - Feb 2024
 @namespace      github.com/openstyles/stylus
@@ -11,7 +12,7 @@
 ==/UserStyle== */
 
 
-@-moz-document regexp(".*") {
+@-moz-document regexp("copilot.microsoft.com") {
     /* Your code goes here. */
     @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
@@ -155,10 +156,13 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 
-
+.ac-textBlock > strong{ 
+	color: white !important ; 
+	}
 
 	
 
+	
 	
 	
 /* 	Prompt sugestions first page */
@@ -184,6 +188,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     opacity: 0;
 }
 
+	
+	
 	
 /* 	Main Coplit logo  */
 	.b_wlcmName {
@@ -222,17 +228,17 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 	
-	
-	
-	
+
 	
 	
 
 	
 	
 	:root {
-/*You icon color */
-    --cib-color-foreground-accent-primary: #FFD29C !important;
+
+	
+/*GPTS icon side bars  */
+    --cib-color-foreground-accent-primary: #B8BB26 !important;
 		
 /*Text that is selected color -> Yellow color is applied to this  		 */
     --cib-color-foreground-accent-secondary: #FABD2F!important;
@@ -272,7 +278,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /*Sign in older chats  	-> chats on the right 	 */
 /* This Applies to main text and other places too -< changing this may break otherstuff  as well 		 */
-    --cib-color-foreground-neutral-primary: #FFD29C!important;
+    --cib-color-foreground-neutral-primary: #FBF1C7!important;
 /* Asdk anything text 	 */
     --cib-color-foreground-neutral-secondary: #B8BB26 !important ;
 /*Icons under chat stylsees  	 */
@@ -410,7 +416,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 /* Recommenadtion pill on the icons 		 */
-    --cib-color-fill-neutral-strong-primary: #FFD29C !important;
+    --cib-color-fill-neutral-strong-primary: #83A598 !important;
     --cib-color-fill-neutral-strong-secondary:#F00 !important;
     --cib-color-fill-neutral-strong-tertriary: #F00 !important;
     --cib-color-fill-neutral-strong-disabled: rgba(68,68,68,0.3);
@@ -453,7 +459,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 /* Plugins side bar cards 		 */
     --cib-color-background-surface-card-secondary: #1D2021 !important;
 /*Citation card bg  		 */
-    --cib-color-background-surface-card-tertiary: #FFD29C !important;
+    --cib-color-background-surface-card-tertiary: #225536 !important;
     --cib-color-background-surface-card-disabled: #E41897 !important;
     --cib-color-background-surface-smoke-primary: #E41897 !important;
     --cib-color-background-surface-solid-base:#E41897 !important;
@@ -754,3 +760,4 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 }  
+  
