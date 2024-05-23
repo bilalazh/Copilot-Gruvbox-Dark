@@ -156,14 +156,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 
-.ac-textBlock > strong{ 
-	color: white !important ; 
-	}
 
-	
-
-	
-	
 	
 /* 	Prompt sugestions first page */
 	
@@ -227,10 +220,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 }
 	
 	
-	
 
-	
-	
 
 	
 	
@@ -271,6 +261,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-foreground-accent-precise-secondary: #D79921 !important ;
 		
 		
+
+		
+	
 		
 	
 		
@@ -278,7 +271,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 /*Sign in older chats  	-> chats on the right 	 */
 /* This Applies to main text and other places too -< changing this may break otherstuff  as well 		 */
-    --cib-color-foreground-neutral-primary: #FBF1C7!important;
+    --cib-color-foreground-neutral-primary: #FFD29C!important;
 /* Asdk anything text 	 */
     --cib-color-foreground-neutral-secondary: #B8BB26 !important ;
 /*Icons under chat stylsees  	 */
@@ -405,11 +398,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-		
-		
-		
 	
-		
 		
 		
 		
@@ -760,4 +749,4 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 }  
-  
+ 
