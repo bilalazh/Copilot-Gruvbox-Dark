@@ -167,8 +167,9 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 /* Prompt vard bg color 	 */
 	.zpcarousel .wt_cont {
+		font-weight: 300 !important ; 
     padding: 8px 12px 8px 12px;
-    background: #225536;
+    background: #3E3B07;
     width: 220px;
     height: 60px;
     position: relative;
@@ -181,7 +182,14 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     opacity: 0;
 }
 
-	
+	.zpcarousel .wt_cont::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px solid #FE8019 !important;
+    border-radius: 8px;
+    opacity: .9;
+}
 	
 	
 /* 	Main Coplit logo  */
@@ -220,8 +228,35 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 }
 	
 	
+	
+	.cib-message ol > li > strong { 
+  color: red !important; 
+}
 
 
+	
+	
+	
+	
+	
+	
+	
+	/*Hide the promotional banner heading */
+	/*Hide the promptional banner */
+	#b_header #cplt_fly , #b_header #copilot_app_cta {
+    display: none !important;
+    top: 30px;
+    right: 0;
+    position: absolute;
+    width: 295px;
+    min-height: 262px;
+    background-color: #FFD29C;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.16);
+    cursor: default;
+}
 	
 	
 	:root {
@@ -291,7 +326,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-foreground-on-accent-strong-primary: #16181A 
 		
 		!important;
-    --cib-color-foreground-on-accent-strong-secondary: #F00 !important;
+    --cib-color-foreground-on-accent-strong-secondary: #FABD2F !important;
     --cib-color-foreground-on-accent-strong-disabled: #F00 !important;
     --cib-color-foreground-system-attention-primary: #F00 !important;
     --cib-color-foreground-system-attribution-primary: #1D1B1A !important;
@@ -306,7 +341,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
    
 		
 		--cib-color-foreground-system-neutral-primary: #F00 !important;
-    --cib-color-foreground-system-neutral-strong: #F00 !important;
+    --cib-color-foreground-system-neutral-strong: #FABD2F !important;
     --cib-color-foreground-system-success-primary:#F00 !important;
 		
 /* 	Feeback button bg 	 */
@@ -347,8 +382,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-fill-accent-gradient-primary: #CC241D !important;
 		
 		
-		
-		
+
 		
 		
 		
@@ -458,8 +492,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-background-surface-solid-primary: #1A1B1D !important;
 		
     --cib-color-background-surface-solid-secondary:#E36209 !important;
-		
-		
+
 		
 		
 		
@@ -468,7 +501,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-color-background-surface-solid-tertiary: #8F3F71 !important;
     --cib-color-background-surface-solid-quaternary: #F00;
     --cib-color-background-system-attention-primary: rgba(255,255,255,0.5);
-    --cib-color-background-system-attention-strong: #D2E1EE;
+    --cib-color-background-system-attention-strong: #FE8019;
     --cib-color-background-system-success-primary: #DFF6DD;
     --cib-color-background-system-success-strong: #0F7B0F;
     --cib-color-background-system-caution-primary: #FFF4CE;
@@ -642,7 +675,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-type-caption2-line-height: 14px;
     --cib-type-caption2-font-weight: 400;
     --cib-type-caption2-font-variation-settings: unset;
-    --cib-type-caption2-strong-font-size: 10px;
+    --cib-type-caption2-strong-font-size: 14px !important;
     --cib-type-caption2-strong-line-height: 14px;
     --cib-type-caption2-strong-font-weight: 600;
     --cib-type-caption2-strong-font-variation-settings: unset;
@@ -650,7 +683,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-type-caption1-line-height: 16px;
     --cib-type-caption1-font-weight: 400;
     --cib-type-caption1-font-variation-settings: unset;
-    --cib-type-caption1-strong-font-size: 12px;
+    --cib-type-caption1-strong-font-size: 14px !important;
     --cib-type-caption1-strong-line-height: 16px;
     --cib-type-caption1-strong-font-weight: 600;
     --cib-type-caption1-strong-font-variation-settings: unset;
@@ -658,15 +691,15 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-type-caption1-stronger-line-height: 16px;
     --cib-type-caption1-stronger-font-weight: 700;
     --cib-type-caption1-stronger-font-variation-settings: unset;
-    --cib-type-body1-font-size: 14px;
+    --cib-type-body1-font-size: 16px !important;
     --cib-type-body1-line-height: 20px;
     --cib-type-body1-font-weight: 400;
     --cib-type-body1-font-variation-settings: unset;
-    --cib-type-body1-strong-font-size: 14px;
+    --cib-type-body1-strong-font-size: 16px !important;
     --cib-type-body1-strong-line-height: 20px;
-    --cib-type-body1-strong-font-weight: 500;
+    --cib-type-body1-strong-font-weight: 600 !important;
     --cib-type-body1-strong-font-variation-settings: unset;
-    --cib-type-body1-stronger-font-size: 14px;
+    --cib-type-body1-stronger-font-size: 16px !important;
     --cib-type-body1-stronger-line-height: 20px;
     --cib-type-body1-stronger-font-weight: 600;
     --cib-type-body1-stronger-font-variation-settings: unset;
@@ -749,4 +782,4 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	
 	
 }  
- 
+
