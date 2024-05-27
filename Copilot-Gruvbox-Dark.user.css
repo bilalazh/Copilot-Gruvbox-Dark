@@ -1,4 +1,3 @@
-
 /* ==UserStyle==
 @name           copilot.microsoft.com - Feb 2024
 @namespace      github.com/openstyles/stylus
@@ -25,6 +24,12 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 
 @-moz-document domain("copilot.microsoft.com") {
 	
+    
+            
+    .ac-textBlock p strong {
+    color: #767676 !important;
+}
+    
 	
 	    :root
 
@@ -156,20 +161,24 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 	}
 	
 
+    
+    
 
-	
+
+    
+    
 /* 	Prompt sugestions first page */
 	
 	.welcome_description, .welcome_category, .b_sunotc, .b_sunotc a:not(:visited) {
     line-height: 20px;
-    color: #FFD29C;
+    color: #ffd29c;
 }
 
 /* Prompt vard bg color 	 */
 	.zpcarousel .wt_cont {
 		font-weight: 300 !important ; 
     padding: 8px 12px 8px 12px;
-    background: #3E3B07;
+    background: #cc241d;
     width: 220px;
     height: 60px;
     position: relative;
@@ -186,7 +195,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     content: "";
     position: absolute;
     inset: 0;
-    border: 1px solid #FE8019 !important;
+    border: 1px solid #79740e !important;
     border-radius: 8px;
     opacity: .9;
 }
@@ -227,16 +236,8 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     background: #225536;
 }
 	
-	
-	
-	.cib-message ol > li > strong { 
-  color: red !important; 
-}
 
 
-	
-	
-	
 	
 	
 	
@@ -259,9 +260,22 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 }
 	
 	
+/*
+	
+	#cib-conversation-main .content.ac-container  p  strong{
+		color:black !important;
+		background: white !important ; 
+	}
+	
+	*/
+
+
+	
 	:root {
 
 	
+
+        
 /*GPTS icon side bars  */
     --cib-color-foreground-accent-primary: #B8BB26 !important;
 		
@@ -431,9 +445,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		
-		
 	
-		
 		
 		
 		
@@ -514,7 +526,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
 		
 		
 		/* Suggestive proptts backgorund 		 */
-    --cib-color-stroke-accent-primary: #79740E!important;
+    --cib-color-stroke-accent-primary: #3e3b07!important;
 		
 
     --cib-color-stroke-accent-secondary: #98971A !important;
@@ -707,7 +719,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-type-body2-line-height: 24px;
     --cib-type-body2-font-weight: 400;
     --cib-type-body2-font-variation-settings: unset;
-    --cib-type-body2-stronger-font-size: 16px;
+    --cib-type-body2-stronger-font-size: 12px !important;
     --cib-type-body2-stronger-line-height: 22px;
     --cib-type-body2-stronger-font-weight: 700;
     --cib-type-body2-stronger-font-variation-settings: unset;
@@ -731,7 +743,7 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-type-message-line-height: 24px;
     --cib-type-message-font-weight: 400;
     --cib-type-message-font-variation-settings: unset;
-    --cib-type-message-strong-font-size: 18px!important;
+    --cib-type-message-strong-font-size: 16px!important;
     --cib-type-message-strong-line-height: 24px;
     --cib-type-message-strong-font-weight: 600;
     --cib-type-message-strong-font-variation-settings: unset;
@@ -776,8 +788,15 @@ p, h1, h2, h3, h4, h5, h6, a, span, li, div, code, pre {
     --cib-motion-easing-transition: cubic-bezier(0.75, 0, 0.25, 1);
 }
 	
+	
+	
 
 
+    
+    
+    
+	
+	
 	
 	
 	
